@@ -7,8 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def move (array, position, player = "X")
-  array[position] = player
+def move (array, index, player = "X")
+  array[index] = player
 end
 
 def input_to_index(input)
