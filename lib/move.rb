@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 
-def move (board_array, index, value = "X")
+def move(board_array, index, value = "X")
   board_array[index] = value
 end
 
