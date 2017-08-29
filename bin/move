@@ -10,4 +10,4 @@ input = gets.strip
 index = input_to_index(input)
 puts index
 move (board)
-display_board(board)
+display_board(board, index) 
