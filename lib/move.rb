@@ -8,6 +8,8 @@ end
 
 
 def move (array, qww, value = "X")
+  puts qww
+  puts value
   array[qww] = value
 end
 
